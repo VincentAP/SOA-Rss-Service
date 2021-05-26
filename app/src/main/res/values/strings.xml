@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SOA_UAS_VincentArdyanPutra_2101658344</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news24">News24</string>
+    <string name="nytimes">NyTimes</string>
+</resources>

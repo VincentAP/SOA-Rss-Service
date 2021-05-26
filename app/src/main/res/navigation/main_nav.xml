@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/news24">
+
+    <fragment
+        android:id="@+id/news24"
+        android:name="com.nakos.soa_uas_vincentardyanputra_2101658344.ui.New24Fragment"
+        android:label="@string/news24"
+        tools:layout="@layout/fragment_news24" />
+    <fragment
+        android:id="@+id/nytimes"
+        android:name="com.nakos.soa_uas_vincentardyanputra_2101658344.ui.NyTimesFragment"
+        android:label="@string/nytimes"
+        tools:layout="@layout/fragment_nytimes" />
+</navigation>
